@@ -1,8 +1,9 @@
-README.md: guessinggame.sh
+README.md:guessinggame.sh
 
+touch README.md
 
 #The title of the project.
-echo 'Guessing game by coursera' >README.md
+echo 'guessinggame.sh' >README.md
 
 
 #The date and time at which make was run.
