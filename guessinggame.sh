@@ -8,7 +8,7 @@
 function Guess
 
 {
-  filepresent=$(ls -1a | wc -l)
+  filepresent=$(ls -l | wc -l)
 
   #loop
   while true 
