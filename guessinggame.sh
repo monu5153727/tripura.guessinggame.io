@@ -26,16 +26,16 @@ if !  [[ "$num" =~ ^[0-9]+$ ]] ;
 
 elif [[ $num -lt $filepresent ]]
  then
-echo 'oops! guess is lower'
+echo 'oops!  ur guess $num is lower'
 
 elif [[ $num -gt $filepresent ]]
  then
-echo 'oops! guess is high'
+echo 'oops! guess $num is high'
 
 
 else 
 
-echo 'guess is right'
+echo 'guess  $num is right'
 break
 
 fi
